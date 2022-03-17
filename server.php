@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $contact = $_POST['mobile'];
     $pincode = $_POST['pincode'];
-    $describes = $_POST['describes'];
+    $describes = $_POST['desc'];
     $gender = $_POST['gender'];
     $framwork = $_POST['languages'];
     $storages = $_POST['database'];
