@@ -37,13 +37,13 @@
         <p>3. Contact No:</p>
       </label>
 
-      <input id="number"  name="mobile" type="number" placeholder="Enter your Conatat no.">
+      <input class="number"  name="mobile" type="number" placeholder="Enter your Conatat no.">
 
       <label id="pincode-label" for="pincode-label">
         <p>4. Pincode:</p>
       </label>
 
-      <input id="number" name="pincode" type="number" placeholder="Enter Your Pincode" required>
+      <input class="number" name="pincode" type="number" placeholder="Enter Your Pincode" required>
 
 
       <p>5. Which Option best describes you?</p>
@@ -67,8 +67,7 @@
       <p>7. Languages and Frameworks known
         <small>(Check all that apply)</small>
       </p>
-
-
+      <fieldset>
       <input type="checkbox" name="languages" value="C">C</input>
       <br>
       <input type="checkbox" name="languages" value="C++">C++</input>
@@ -89,12 +88,13 @@
       <br>
       <input type="checkbox" name="languages" value="Spring">Spring</input>
       <br>
+      </fieldset>
       <br>
 
-      <textarea id="comment" rows="4" cols="40" name="languages">Any Other</textarea>
+      <textarea id="comment" rows="4" cols="40" name="text"></textarea>
       <br>
       <p>8. Storage Medium</p>
-      <select name="database" id="dropdown">
+      <select name="database" id="dropdown-select">
         <option value="database" name="">Database </option>
         <option value="local host" name=""> Local file</option>
 
